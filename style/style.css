@@ -1,0 +1,42 @@
+html,
+body {
+  /* margin: 0;
+  padding: 0; */
+}
+
+canvas {
+  display: block;
+}
+
+.lyrics_line {
+  display: block;
+  min-height: 1.4em;
+  color: #212121;
+}
+
+.chord {
+  font-weight: 700;
+  cursor: default;
+  display: inline-block;
+  /* padding: .1em .5em .15em;
+  margin: -.1em -.5em -.15em; */
+  border-radius: 2px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  background: #dadada;
+}
+
+.lyrics_block {
+  font-size: 13px;
+  font-family: Roboto Mono, monospace;
+
+  line-height: 1.4em;
+  margin: 0;
+  color: #212121;
+}
+
+pre {
+  margin: 0rem;
+}
+
+/* whitesspace is added without class */
